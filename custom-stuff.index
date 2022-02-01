@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Custom Stuff</name>
+		<description>Custom Stuff</description>
+		<update version="0.1">
+			<file name="custom-stuff.index" url="https://raw.githubusercontent.com/K0rgus/The-Web/main/the-web.index" />
+		</update>
+	</info>
+	<files>
+		<file name="race-mr.handy.xml" url="https://raw.githubusercontent.com/K0rgus/Custom-Stuff/main/Mr.%20Handy.xml" />
+	</files>
+</index>
