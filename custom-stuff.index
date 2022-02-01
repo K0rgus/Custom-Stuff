@@ -4,7 +4,7 @@
 		<name>Custom Stuff</name>
 		<description>Custom Stuff</description>
 		<update version="0.1">
-			<file name="custom-stuff.index" url="https://raw.githubusercontent.com/K0rgus/The-Web/main/the-web.index" />
+			<file name="custom-stuff.index" url="https://raw.githubusercontent.com/K0rgus/Custom-Stuff/main/custom-stuff.index" />
 		</update>
 	</info>
 	<files>
