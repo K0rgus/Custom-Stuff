@@ -21,17 +21,21 @@
 				<span class="feature">Size.</span>A Mr. Handy’s metal body is made of a 3-foot diameter sphere with 3 arms that float 3 feet off the ground. They weigh 120 pounds.<br />
 				<span class="feature">Speed.</span>Your base walking speed is 25 feet.<br />
 				<span class="feature">Languages.</span>You can speak, read, and write in Common and one other language.<br />
-        <span class="feature">Arms!</span>Your 3 arms are versatile tools for completing everyday tasks, but they can also become much more. During a short rest, you can replace one of your hands with any weapon that does not have the Heavy property. This new attached weapon gains +1 to attack rolls.<br />
-        <span class="feature">You Are a Robot.</span>As a robot, you are immune to disease. You do not need to eat or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.<br />
-        <span class="feature">Fix Me Up.</span>You do not heal like other races. As an action, you or another character within 5 ft. can make a Technology (Arcana) check. The DC is equal to your level. On a success, you heal 2d4+4 hit points.<br />
+        			<span class="feature">Arms!</span>Your 3 arms are versatile tools for completing everyday tasks, but they can also become much more. During a short rest, you can replace one of your hands with any weapon that does not have the Heavy property. This new attached weapon gains +1 to attack rolls.<br />
+        			<span class="feature">You Are a Robot.</span>As a robot, you are immune to disease. You do not need to eat or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.<br />
+        			<span class="feature">Fix Me Up.</span>You do not heal like other races. As an action, you or another character within 5 ft. can make a Technology (Arcana) check. The DC is equal to your level. On a success, you heal 2d4+4 hit points.<br />
 			</p>
 		</description>
 		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">6'0"</set>
+			<set name="weight" modifier="2d4">120 lb.</set>
+		</setters>
 		<rules>
 			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-      <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mr. Handy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mr. Handy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+     			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mr. Handy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="25" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
