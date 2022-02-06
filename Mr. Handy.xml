@@ -38,4 +38,6 @@
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Mr. Handy)" supports="Standard||Exotic" requirements="!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
 		</rules>
+	</element>
+
 	</elements>
