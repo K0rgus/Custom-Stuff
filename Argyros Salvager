@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Argyros Salvager</name>
+		<description>Argyros Salvager Background</description>
+		<author url="https://docs.google.com/document/d/1JcyfCLwP7IgMB0s3JeSqA6nrzorWLRhmuSrZOW9-VHc/edit?usp=sharing">World of Ydhe</author>
+		<update version="0.0.5">
+			<file name="background-salvager.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/backgrounds/background-soldier.xml" />
+		</update>
+	</info>
+	
+	<element name="Argyros Salvager" type="Background" source="World of Ydhe" id="ID_BACKGROUND_SALVAGER">
+		<description>
+			<p>Growing up on the innovators’ island, you’ve picked up a few tricks of the trade. Even if you don’t have a head for machines, you are adept at picking out useful items, both natural and man-made, from among the detritus of the world. You might be a scrapper, a guide, or just someone accustomed to the rougher side of the land.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Investigation, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> Herbalism kit or one type of vehicle</li>
+				<li><strong>Equipment:</strong> A Herbalism Kit or a compass, a shovel, a set of common clothes, and 10gp</li>
+			</ul>
+		<setters>
+			<set name="short">Investigation, Survival, Herbalism Kit or one type of vehicle</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTiGATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<select type="Proficiency" name="Gaming Set" supports="Gaming Set" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">My friends know they can rely on me, no matter what.</item>
+				<item id="2">I work hard so that I can play hard when the work is done.</item>
+				<item id="3">I enjoy sailing into new ports and making new friends over a flagon of ale.</item>
+				<item id="4">I stretch the truth for the sake of a good story.</item>
+				<item id="5">To me, a tavern brawl is a nice way to get to know a new city.</item>
+				<item id="6">I never pass up a friendly wager.</item>
+				<item id="7">My language is as foul as an otyugh nest.</item>
+				<item id="8">I like a job well done, especially if I can convince someone else to do it.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)</item>
+				<item id="2">Fairness. We all do the work, so we all share in the rewards. (Lawful)</item>
+				<item id="3">Freedom. The sea is freedom—the freedom to go anywhere and do anything. (Chaotic)</item>
+				<item id="4">Mastery. I’m a predator, and the other ships on the sea are my prey. (Evil)</item>
+				<item id="5">People. I’m committed to my crewmates, not to ideals. (Neutral)</item>
+				<item id="6">Aspiration. Someday I’ll own my own ship and chart my own destiny. (Any)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">I’m loyal to my captain first, everything else second.</item>
+				<item id="2">The ship is most important—crewmates and captains come and go.</item>
+				<item id="3">I’ll always remember my first ship.</item>
+				<item id="4">In a harbor town, I have a paramour whose eyes nearly stole me from the sea.</item>
+				<item id="5">I was cheated out of my fair share of the profits, and I want to get my due.</item>
+				<item id="6">Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<<item id="1">I follow orders, even if I think they’re wrong.</item>
+				<item id="2">I’ll say anything to avoid having to do extra work.</item>
+				<item id="3">Once someone questions my courage, I never back down no matter how dangerous the situation.</item>
+				<item id="4">Once I start drinking, it’s hard for me to stop.</item>
+				<item id="5">I can’t help but pocket loose coins and other trinkets I come across.</item>
+				<item id="6">My pride will probably lead to my destruction.</item>
+			</select>
+		</rules>
+	</element>
+</elements>
