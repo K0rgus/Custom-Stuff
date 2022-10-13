@@ -24,7 +24,6 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-			<select type="Proficiency" name="Gaming Set" supports="Gaming Set" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
 			<select type="Language" name="Language (Argyros Salvager)" number="1" supports="Standard||Exotic" />
 			<select name="Personality Trait" type="List" number="2">
