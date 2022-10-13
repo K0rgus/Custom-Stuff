@@ -26,7 +26,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<select type="Proficiency" name="Gaming Set" supports="Gaming Set" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
-			select type="Language" name="Language (Argyros Salvager)" number="1" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Argyros Salvager)" number="1" supports="Standard||Exotic" />
 			<select name="Personality Trait" type="List" number="2">
 				<item id="1">My friends know they can rely on me, no matter what.</item>
 				<item id="2">I work hard so that I can play hard when the work is done.</item>
