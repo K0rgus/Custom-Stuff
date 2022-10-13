@@ -52,7 +52,7 @@
 				<item id="6">Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.</item>
 			</select>
 			<select name="Flaw" type="List">
-				<<item id="1">I follow orders, even if I think they’re wrong.</item>
+				<item id="1">I follow orders, even if I think they’re wrong.</item>
 				<item id="2">I’ll say anything to avoid having to do extra work.</item>
 				<item id="3">Once someone questions my courage, I never back down no matter how dangerous the situation.</item>
 				<item id="4">Once I start drinking, it’s hard for me to stop.</item>
