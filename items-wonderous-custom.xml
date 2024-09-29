@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <info>
-    <name>Custom Wondrous Items</name>
-    <update version="0.1.0">
-      <file name="items-wondrous-custom.xml" url="https://raw.githubusercontent.com/K0rgus/Custom-Stuff/refs/heads/main/items-wonderous-custom.xml"/>
-    </update>
-  </info>
-  <element name="Sigil of the Deep Queen" type="Magic Item" source="TOGAD" id="ID_TOGAD_MAGIC_ITEM_SIGIL_OF_THE_DEEP_QUEEN">
-    <description>
-      <p>While wearing this amulet, you gain the following benefits:</p>
-      <ul>
-        <li> You are immune to any effect relying on mind-reading, telepathy, and scrying effects.</li>
-        <li> You are resistant to psychic damage.</li>
-        <li> You have advantage on saving throws against spells and other magical effects that seek to corrupt your mind or warp your flesh.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords">divination, resistance</set>
-      <set name="category">Wondrous Items</set>
-      <set name="cost" currency="gp">0</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="slot">neck</set>
-      <set name="type">Wondrous Item</set>
-      <set name="attunement">true</set>
-      <set name="rarity">Rare</set>
-    </setters>
-    <rules>
-      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
-    </rules>
-  </element>
+	<info>
+		<name>Custom Wondrous Items</name>
+		<update version="0.1.0">
+			<file name="items-wondrous-custom.xml" url="https://raw.githubusercontent.com/K0rgus/Custom-Stuff/refs/heads/main/items-wonderous-custom.xml"/>
+		</update>
+	</info>
+	<element name="Sigil of the Deep Queen" type="Magic Item" source="TOGAD" id="ID_TOGAD_MAGIC_ITEM_SIGIL_OF_THE_DEEP_QUEEN">
+		<description>
+			<p>While wearing this amulet, you gain the following benefits:</p>
+			<ul>
+				<li> You are immune to any effect relying on mind-reading, telepathy, and scrying effects.</li>
+				<li> You are resistant to psychic damage.</li>
+				<li> You have advantage on saving throws against spells and other magical effects that seek to corrupt your mind or warp your flesh.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">divination, resistance</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>
+		</rules>
+	</element>
 </elements>
