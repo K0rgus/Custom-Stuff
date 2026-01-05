@@ -45,7 +45,7 @@
 	</element>
 	<element name="Bracers of Dwarvenkind" type="Magic Item" source="TOGAD" id="ID_TOGAD_MAGIC_ITEM_BRACERS_OF_DWARVENKIND">
 		<description>
-			<p>While attuned to these bracers, you gain a +2 to strength and can exceed 20</p>
+			<p>While attuned to these bracers, your Strength score increases by 2, as does your maximum for that score.</p>
 		</description>
 		<setters>
 			<set name="keywords">enchantment, strength</set>
